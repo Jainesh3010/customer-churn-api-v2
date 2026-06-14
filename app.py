@@ -42,9 +42,9 @@ def predict(data:Inputdata):
  }])
 
 
-    predict=model.predict(input_data)
+    predict = int(model.predict(input_data)[0])
 
-    prob = model.predict_proba(input_data)[:,1]
+    prob = float(model.predict_proba(input_data)[0][1])
 
     prediction = 1 if prob > 0.35 else 0
 
@@ -55,11 +55,11 @@ def predict(data:Inputdata):
     else:
         risk = "High Risk"
 
-
     return {
-        "Churn Probaility":float(prob),
-        "prediction":int(predict),
-        "risk":risk
+        "Churn Probability": prob,
+        "prediction": prediction,
+        "risk": risk
     }
+
 
 
