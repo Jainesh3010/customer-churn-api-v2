@@ -223,12 +223,6 @@ This system can help organizations:
 
 
 
-Add:
-
-* Power BI Dashboard Screenshot
-* FastAPI Swagger UI Screenshot
-* Prediction Output Screenshot
-
 ---
 
 ## 👨‍💻 Author
