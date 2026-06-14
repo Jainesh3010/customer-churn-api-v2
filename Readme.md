@@ -57,7 +57,6 @@ The model is deployed as a REST API using FastAPI and can provide real-time pred
 | Balance         |
 | NumOfProducts   |
 | IsActiveMember  |
-| EstimatedSalary |
 
 ---
 
@@ -76,8 +75,7 @@ The model is deployed as a REST API using FastAPI and can provide real-time pred
   "Tenure": 2,
   "Balance": 125000,
   "NumOfProducts": 1,
-  "IsActiveMember": 0,
-  "EstimatedSalary": 85000
+  "IsActiveMember": 0
 }
 ```
 
