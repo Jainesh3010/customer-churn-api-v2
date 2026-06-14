@@ -8,11 +8,11 @@ An end-to-end Data Science project that combines Data Analysis, SQL, Power BI, M
 
 **API Endpoint**
 
-https://customer-churn-prediction-fastapi-vz3m.onrender.com
+[https://customer-churn-prediction-fastapi-vz3m.onrender.com](https://customer-churn-api-v2.onrender.com)
 
 **Swagger Documentation**
 
-https://customer-churn-prediction-fastapi-vz3m.onrender.com/docs
+[https://customer-churn-prediction-fastapi-vz3m.onrender.com/docs](https://customer-churn-api-v2.onrender.com/docs#/default/predict_predict_post)
 
 ---
 
